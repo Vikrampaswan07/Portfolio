@@ -20,7 +20,7 @@ const Hero = () => {
                     </div>
                 </div>
                 <div className="w-full lg:w-1/3 lg:px-7 lg:py-6 ">
-                    <div className="flex justify-center ">
+                    <div className="flex justify-center items-center ">
                         <img src={profilePic} alt="Kevin Rush" className=""/>
                     </div>
                 </div>
