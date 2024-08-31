@@ -5,7 +5,7 @@ const Hero = () => {
     return (
         <div className="border-b border-neutral-900 pb-4 lg:mb-35">
             <div className="flex flex-wrap">
-                <div className="w-full lg:w-1/2">
+                <div className="w-full lg:w-1/2 ml-0 lg:ml-20">
                     <div className="flex flex-col items-center lg:items-start">
                         <h1
                             className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl">
@@ -19,9 +19,9 @@ const Hero = () => {
                         </p>
                     </div>
                 </div>
-                <div className="w-full lg:w-1/3 lg:px-7 lg:py-6 ">
+                <div className="w-full lg:w-1/3 lg:px-7 py-0 lg:py-6 ml-0 lg:ml-20">
                     <div className="flex justify-center items-center ">
-                        <img src={profilePic} alt="Kevin Rush" className=""/>
+                        <img src={profilePic} alt="Vikram" className="rounded-2xl"/>
                     </div>
                 </div>
             </div>
